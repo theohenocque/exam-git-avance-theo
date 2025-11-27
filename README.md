@@ -1,11 +1,19 @@
-# Campus Library — Examen Git
+# Petite bibliothèque en Go
 
-Ce repository contient plusieurs branches avec du code pré-écrit.
+Ce projet est un mini serveur web permettant d'afficher une liste de livres
+ainsi qu'une page détaillée par livre.
 
-🎯 Votre objectif : reconstruire le projet final en utilisant **exclusivement Git** :
-- fork
-- pull requests
-- merges
-- résolution de conflits
-- tags
-- historique propre
+## Installation
+
+go mod init main  
+go run main.go
+
+## Routes
+
+/         → page d'accueil  
+/books    → liste des livres  
+/books/{id} → page d'un livre
+
+## Auteur
+
+Theo — B1
